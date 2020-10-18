@@ -54,7 +54,7 @@ body {
 
 .section-header {
   color: #ffffff;
-  background: url("/img/header_left_bottom.png") no-repeat left bottom/40%, url("/img/header_right_bottom.png") no-repeat right bottom/40%, url("/img/header_bground.png");
+  background: url("../img/header_left_bottom.png") no-repeat left bottom/40%, url("../img/header_right_bottom.png") no-repeat right bottom/40%, url("../img/header_bground.png");
   margin-bottom: 100px; }
   .section-header-wrapper {
     margin: 0 auto;
@@ -124,7 +124,7 @@ body {
   font-weight: 700;
   line-height: 28px;
   color: #333333;
-  background: url("/img/future_subtitle_bottom.png") no-repeat bottom;
+  background: url("../img/future_subtitle_bottom.png") no-repeat bottom;
   text-align: center;
   padding-bottom: 27px;
   margin-bottom: 70px; }
@@ -179,7 +179,7 @@ body {
     color: #333333;
     text-align: center;
     padding-bottom: 37px;
-    background: url("/img/future_subtitle_bottom.png") bottom no-repeat;
+    background: url("../img/future_subtitle_bottom.png") bottom no-repeat;
     margin-bottom: 50px; }
   .section-steps .wrapper_cards {
     display: flex;
@@ -220,7 +220,8 @@ body {
         margin-bottom: 50px; } }
   .section-steps_bottomImages {
     display: flex;
-    align-items: flex-end; }
+    align-items: flex-end;
+    justify-content: center; }
     .section-steps_bottomImages :not(:nth-child(2)) img {
       position: relative;
       bottom: 100px; }
@@ -273,7 +274,7 @@ body {
           padding: 28px; }
       .section-colums_wraper_colum .icon {
         padding-left: 60px;
-        background: url("/img/column_check.png") no-repeat 20px 50%; }
+        background: url("../img/column_check.png") no-repeat 20px 50%; }
       .section-colums_wraper_colum .hide {
         color: #f26522; }
   @media (max-width: 767px) {
@@ -287,7 +288,7 @@ body {
 
 .section-subscribe {
   margin-bottom: 100px;
-  background: url("/img/sections_submit_right_bottom.png") no-repeat right bottom/30%, url("/img/header_bground.png") repeat; }
+  background: url("../img/sections_submit_right_bottom.png") no-repeat right bottom/30%, url("../img/header_bground.png") repeat; }
   .section-subscribe_wraper {
     color: #f2f2f2;
     display: flex;
@@ -343,7 +344,7 @@ body {
         .section-subscribe_wraper .form_input button, .section-subscribe_wraper .form_button button {
           padding: 10px 5px; } }
     .section-subscribe_wraper .form_input {
-      background: url("/img/icon_email.png") no-repeat 20px 50%; }
+      background: url("../img/icon_email.png") no-repeat 20px 50%; }
       .section-subscribe_wraper .form_input input {
         margin-left: 60px;
         padding-left: 0; }
@@ -355,12 +356,12 @@ body {
       .section-subscribe .form_input {
         background: none; }
         .section-subscribe .form_input input {
-          background: url("/img/icon_email.png") no-repeat 5px 50%/10%;
+          background: url("../img/icon_email.png") no-repeat 5px 50%/10%;
           margin-left: 0;
           padding-left: 30px; } }
 
 .section-form_sub {
-  background: url("/img/Vector_Smart_Object.png") bottom left/40% no-repeat; }
+  background: url("../img/Vector_Smart_Object.png") bottom left/40% no-repeat; }
   .section-form_sub_wrapper {
     display: flex;
     justify-content: space-between;
